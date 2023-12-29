@@ -19,7 +19,7 @@ echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile
 
 ---------------------------------------------------
 go version
-source $HOME/.bash_profile
+
 
 --------------------------------------
 cd $HOME
@@ -28,6 +28,7 @@ git clone https://github.com/celestiaorg/celestia-app.git
 cd celestia-app
 make install
 ver="1.18.3"
+source $HOME/.bash_profile
 -------------------------------------------------
 celestia-appd version
 
