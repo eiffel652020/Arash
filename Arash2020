@@ -20,7 +20,7 @@ echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile
 ---------------------------------------------------
 go version
 rm -rf celestia-app
-
+source $HOME/.bash_profile
 
 --------------------------------------
 cd $HOME
