@@ -21,7 +21,7 @@ echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile
 go version
 rm -rf celestia-app
 source $HOME/.bash_profile
-
+ver="1.18.3"
 --------------------------------------
 cd $HOME
 git clone https://github.com/celestiaorg/celestia-app.git
