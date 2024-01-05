@@ -142,11 +142,10 @@ sudo systemctl stop celestia-appd
 -------------------------------------------------------------
 
 sudo systemctl stop celestia-appd
-
+rm -rf ~/.celestia-app/data
 --------------------------------------------------------------
 
 cd $HOME
-rm -rf ~/.celestia-app/data
 mkdir -p ~/.celestia-app/data
 SNAP_NAME=$(curl -s https://snaps.qubelabs.io/celestia/ | \
     egrep -o ">mamaki.*tar" | tr -d ">")
