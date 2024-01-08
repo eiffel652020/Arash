@@ -21,7 +21,6 @@ go version
 rm -rf celestia-app
 wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
 source $HOME/.bash_profile
-ver="1.18.3"
 --------------------------------------
 cd $HOME
 git clone https://github.com/celestiaorg/celestia-app.git
