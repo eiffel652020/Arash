@@ -7,7 +7,8 @@ sudo apt update && sudo apt upgrade -y
 ---------------------------------------------
 sudo apt install curl tar wget clang pkg-config libssl-dev jq build-essential bsdmainutils git make ncdu -y
 sudo apt update && sudo apt upgrade -y
--------------------------------------------------
+-source $HOME/.bash_profile
+------------------------------------------------
 cd $HOME
 ver="1.18.3"
 sudo rm -rf /usr/local/go
