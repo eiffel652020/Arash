@@ -31,7 +31,7 @@ ver="1.18.3"
 source $HOME/.bash_profile
 -------------------------------------------------
 celestia-appd version
-
+echo $BOOTSTRAP_PEERS
 -------------------------------------------
 git clone https://github.com/celestiaorg/networks
 echo $BOOTSTRAP_PEERS
