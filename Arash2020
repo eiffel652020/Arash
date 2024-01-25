@@ -1,5 +1,6 @@
 
 for github
+source $HOME/.bash_profile
 ver="1.18.3"
 
 ------------------------------------------
