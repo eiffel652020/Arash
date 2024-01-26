@@ -11,6 +11,7 @@ sudo apt install curl tar wget clang pkg-config libssl-dev jq build-essential bs
 sudo apt update && sudo apt upgrade -y
 -source $HOME/.bash_profile
 sudo apt update && sudo apt upgrade -y
+cd celestia-app
 ------------------------------------------------
 cd $HOME
 ver="1.18.3"
