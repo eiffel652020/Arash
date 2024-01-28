@@ -12,6 +12,7 @@ sudo apt update && sudo apt upgrade -y
 -source $HOME/.bash_profile
 sudo apt update && sudo apt upgrade -y
 cd celestia-app
+ver="1.18.3"
 ------------------------------------------------
 cd $HOME
 ver="1.18.3"
