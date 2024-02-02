@@ -132,12 +132,15 @@ tee $HOME/celestia-appd.service > /dev/null <<EOF
   LimitNOFILE=65535
 [Install]
   WantedBy=multi-user.target
-EOF
+
+
+
 
 ---------------------------------------------------
 sudo mv $HOME/celestia-appd.service /etc/systemd/system/
 
 ----------------------------------------------------
+Press CTRL+C to stop the logs
 sudo systemctl enable celestia-appd
 sudo systemctl daemon-reload
 sudo systemctl restart celestia-appd && journalctl -u celestia-appd -f -o cat
