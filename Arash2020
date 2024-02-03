@@ -152,6 +152,7 @@ sudo systemctl stop celestia-appd
 cd $HOME
 sudo systemctl stop celestia-appd
 rm -rf ~/.celestia-app/data
+pruning_keep_recent="100" 
 --------------------------------------------------------------
 
 cd $HOME
