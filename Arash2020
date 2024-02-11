@@ -119,7 +119,7 @@ celestia-appd config keyring-backend test
 ---------------------------------------------------
 
 celestia-appd config chain-id $CELESTIA_CHAIN
-celestia-appd config keyring-backend test
+
 
 -------------------------------------------------------
 tee $HOME/celestia-appd.service > /dev/null <<EOF
