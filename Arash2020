@@ -1,7 +1,7 @@
 cd $HOME
 for github
 source $HOME/.bash_profile
-ver="1.18.3"
+ver="1. 18.3"
 
 ------------------------------------------
 cd $HOME
