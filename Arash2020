@@ -5,7 +5,6 @@ ver="1. 18.3"
 
 ------------------------------------------
 cd $HOME
-sudo rm -rf /usr/local/go
 sudo apt update && sudo apt upgrade -y
 ---------------------------------------------
 cd $HOME
