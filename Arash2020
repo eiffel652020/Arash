@@ -44,6 +44,7 @@ echo $BOOTSTRAP_PEERS
 cd $HOME
 git clone https://github.com/celestiaorg/networks
 echo $BOOTSTRAP_PEERS
+git checkout v0.6.0
 -------------------------------
 cd $HOME
 rm -rf networks
