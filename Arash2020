@@ -6,6 +6,7 @@ ver="1. 18.3"
 ------------------------------------------
 cd $HOME
 sudo apt update && sudo apt upgrade -y
+sudo apt update && sudo apt upgrade -y
 ---------------------------------------------
 cd $HOME
 for github
