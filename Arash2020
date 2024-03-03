@@ -125,7 +125,7 @@ celestia-appd config keyring-backend test
 ---------------------------------------------------
 
 celestia-appd config chain-id $CELESTIA_CHAIN
-
+ WantedBy=multi-user.target
 
 -------------------------------------------------------
 tee $HOME/celestia-appd.service > /dev/null <<EOF
