@@ -5,6 +5,7 @@ sudo apt update && sudo apt upgrade -y
 ver="1. 18.3"
 ------------------------------------------
 cd $HOME
+for github
 sudo apt update && sudo apt upgrade -y
 sudo apt update && sudo apt upgrade -y
 cd celestia-app
