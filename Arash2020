@@ -22,6 +22,7 @@ cd celestia-app
 ver="1.18.3"
 ------------------------------------------------
 cd $HOME
+for github
 ver="1.18.3"
 sudo tar -C /usr/local -xzf "go$ver.linux-amd64.tar.gz"
 rm "go$ver.linux-amd64.tar.gz"
