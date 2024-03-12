@@ -7,6 +7,7 @@ cd celestia-app
 ------------------------------------------
 cd $HOME
 for github
+source $HOME/.bash_profile
 sudo apt update && sudo apt upgrade -y
 sudo apt update && sudo apt upgrade -y
 cd celestia-app
