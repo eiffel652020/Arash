@@ -46,6 +46,7 @@ cd celestia-app
 make install
 ver="1.18.3"
 source $HOME/.bash_profile
+ver="1.18.3"
 -------------------------------------------------
 celestia-appd version
 echo $BOOTSTRAP_PEERS
