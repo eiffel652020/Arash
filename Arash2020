@@ -45,6 +45,7 @@ git clone https://github.com/celestiaorg/celestia-app.git
 cd celestia-app
 make install
 ver="1.18.3"
+cd celestia-app
 source $HOME/.bash_profile
 ver="1.18.3"
 -------------------------------------------------
