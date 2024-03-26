@@ -21,7 +21,6 @@ sudo apt update && sudo apt upgrade -y
 cd celestia-app
 ver="1.18.3" 
 ------------------------------------------------
-cd $HOME
 for github
 ver="1.18.3"
 sudo tar -C /usr/local -xzf "go$ver.linux-amd64.tar.gz"
@@ -31,6 +30,7 @@ cd celestia-app
 ver="1.18.3"
 source $HOME/.bash_profile
 ---------------------------------------------------
+for github
 go version
 rm -rf celestia-app
 wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
