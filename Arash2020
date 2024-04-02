@@ -205,7 +205,7 @@ echo $CELESTIA_ADDR
 celestia-appd keys add $CELESTIA_WALLET
 echo 'export CELESTIA_ADDR='${CELESTIA_ADDR} >> $HOME/.bash_prof
 echo $CELESTIA_ADDR 
-
+echo $CELESTIA_ADDR 
 -----------------------------------
 CELESTIA_ADDR=$(celestia-appd keys show $CELESTIA_WALLET -a) 
 echo $CELESTIA_ADDR 
