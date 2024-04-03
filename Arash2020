@@ -3,7 +3,6 @@ for github
 source $HOME/.bash_profile
 sudo apt update && sudo apt upgrade -y
 ver="1. 18.3"
-cd celestia-app
 ------------------------------------------
 cd $HOME
 for github
