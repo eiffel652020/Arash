@@ -13,6 +13,7 @@ cd celestia-app
 ver="1. 18.3"
 ---------------------------------------------
 cd $HOME
+for github
 sudo apt install curl tar wget clang pkg-config libssl-dev jq build-essential bsdmainutils git make ncdu -y
 sudo apt update && sudo apt upgrade -y
 -source $HOME/.bash_profile
