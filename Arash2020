@@ -158,6 +158,7 @@ sudo mv $HOME/celestia-appd.service /etc/systemd/system/
 WantedBy=multi-user.target
 [Install]
 ----------------------------------------------------
+cd $HOME
 Press CTRL+C to stop the logs
 sudo systemctl enable celestia-appd
 sudo systemctl daemon-reload
