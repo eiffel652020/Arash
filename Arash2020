@@ -157,6 +157,8 @@ tee $HOME/celestia-appd.service > /dev/null <<EOF
 sudo mv $HOME/celestia-appd.service /etc/systemd/system/
 WantedBy=multi-user.target
 [Install]
+ WantedBy=multi-user.target
+
 ----------------------------------------------------
 cd $HOME
 Press CTRL+C to stop the logs
