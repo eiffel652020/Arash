@@ -192,6 +192,7 @@ CTRL+C را فشار دهید تا لاگ ها متوقف شوند
 --------------------------------------------------
 sudo systemctl restart celestia-appd && journalctl -u celestia-appd -f -o cat
 CTRL+C را فشار دهید تا لاگ ها متوقف شوند
+echo $CELESTIA_ADDR 
 -------------------------------------------------
 
 
