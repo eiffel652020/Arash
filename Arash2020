@@ -193,6 +193,7 @@ cd $HOME
 منتظر بمانید تا گره شما اکثر بلوک ها را از زنجیره بلوکی Celestia دانلود کند
 CTRL+C را فشار دهید تا لاگ ها متوقف شوند
 --------------------------------------------------
+mkdir -p ~/.celestia-app/data
 sudo systemctl restart celestia-appd && journalctl -u celestia-appd -f -o cat
 CTRL+C را فشار دهید تا لاگ ها متوقف شوند
 echo $CELESTIA_ADDR 
