@@ -195,6 +195,7 @@ cd $HOME
 cd $HOME
 منتظر بمانید تا گره شما اکثر بلوک ها را از زنجیره بلوکی Celestia دانلود کند
 CTRL+C را فشار دهید تا لاگ ها متوقف شوند
+pruning_keep_recent="100" 
 --------------------------------------------------
 mkdir -p ~/.celestia-app/data
 sudo systemctl restart celestia-appd && journalctl -u celestia-appd -f -o cat
