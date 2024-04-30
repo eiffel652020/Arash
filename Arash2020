@@ -178,6 +178,7 @@ Press CTRL+C to stop the logs
 sudo systemctl stop celestia-appd
 -------------------------------------------------------------
 cd $HOME
+Press CTRL+C to stop the logs
 sudo systemctl stop celestia-appd
 rm -rf ~/.celestia-app/data
 pruning_keep_recent="100" 
