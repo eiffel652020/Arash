@@ -54,6 +54,7 @@ cd celestia-app
 source $HOME/.bash_profile
 ver="1.18.3"
 -------------------------------------------------
+cd $HOME
 celestia-appd version
 echo $BOOTSTRAP_PEERS
 -------------------------------------------
