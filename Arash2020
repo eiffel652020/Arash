@@ -202,6 +202,7 @@ pruning_keep_recent="100"
 mkdir -p ~/.celestia-app/data
 sudo systemctl restart celestia-appd && journalctl -u celestia-appd -f -o cat
 CTRL+C را فشار دهید تا لاگ ها متوقف شوند
+pruning_keep_recent="100" 
 echo $CELESTIA_ADDR 
 -------------------------------------------------
 
