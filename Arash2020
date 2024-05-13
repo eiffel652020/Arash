@@ -2,6 +2,7 @@ cd $HOME
 for github
 source $HOME/.bash_profile
 sudo apt update && sudo apt upgrade -y
+cd celestia-app
 ver="1. 18.3"
 ------------------------------------------
 cd $HOME
@@ -42,6 +43,7 @@ rm -rf celestia-app
 wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
 source $HOME/.bash_profile
 make install
+cd celestia-app
 cd celestia-app
 ver="1.18.3"
 --------------------------------------
