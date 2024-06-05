@@ -50,6 +50,7 @@ cd celestia-app
 ver="1.18.3"
 --------------------------------------
 cd $HOME
+for github
 go version
 git clone https://github.com/celestiaorg/celestia-app.git
 cd celestia-app
