@@ -99,6 +99,7 @@ celestia-appd init $CELESTIA_NODENAME --chain-id $CELESTIA_CHAIN
 CELESTIA_CHAIN="mamaki"
 -------------------------------------
 cp $HOME/networks/mamaki/genesis.json $HOME/.celestia-app/config/
+CELESTIA_NODENAME="amir"
 
 ---------------------------------------
 sed -i 's/mode = \"full\"/mode = \"validator\"/g' $HOME/.celestia-app/config/config.toml
