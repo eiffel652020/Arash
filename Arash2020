@@ -63,6 +63,7 @@ ver="1.18.3"
 cd $HOME
 celestia-appd version
 echo $BOOTSTRAP_PEERS
+cd celestia-app
 -------------------------------------------
 cd $HOME
 git clone https://github.com/celestiaorg/networks
