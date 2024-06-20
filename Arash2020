@@ -25,6 +25,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt update && sudo apt upgrade -y
 sudo apt update && sudo apt upgrade -y
 cd celestia-app
+cd celestia-app
 ver="1.18.3" 
 ------------------------------------------------
 cd $HOME 
